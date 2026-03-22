@@ -20,3 +20,8 @@
   ```sh
   id=$(node -e 'console.log(crypto.randomUUID())') && mkdir "$id" && cd "$id"
   ```
+  or
+  ```sh
+  id=$(uuidgen) && mkdir "$id" && cd "$id"
+  ```
+  
